@@ -4,8 +4,9 @@ const serverPort = process.env.SERVER_PORT || 3001;
 const publicWeb = './server/www';
 
 const cosmos = {
-  name: 'my-heroes-db',
-  key: 'VBXJsJKnmpd4r1LiDBlxWru5XZBdMcJ4hq8DTDOLAogojOsiw74rztcXvWcX5yIJcF8CLp2bGA2iwtRFimRDvg==',
+  accountName: 'connect-heroes',
+  databaseName: 'heroes-db',
+  key: 'xMbFw8yPdlifWwvhvO3tCGCzGY6Gi92qazoeILYbHNU4Vx5NqvVbU24VGEuD0c27kp8hTpNvKHkTF48x734ulg==',
   port: 10255
 };
 
